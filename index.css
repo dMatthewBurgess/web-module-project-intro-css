@@ -103,6 +103,7 @@ nav a{
 
 .titles{
     text-align: center;
+    position:relative;
 }
 
 .left, .right{
@@ -119,4 +120,8 @@ nav a{
 }
 .left img{
     border-radius: 50%;
+}
+.right div{
+    position: absolute;
+    top:40%;
 }
